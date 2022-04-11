@@ -1,0 +1,29 @@
+body {
+    background-color: #D4D4D4;
+    max-width: 1080px;
+    max-height: 100vh;
+    margin: 0 auto;
+    font-family: Raleway, sans-serif;
+}
+
+nav {
+    height: 10%;
+    background-color: #ECECEC;
+    padding: 15px;
+}
+
+nav h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+#mainContent {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45%;
+}
+
+#quote {
+    font-size: 30px;
+}
