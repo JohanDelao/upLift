@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b2a17ff2c4.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -19,7 +20,14 @@
     <div id="mainContent">
         <div id="quoteBox">
         </div>
-        <button onclick="generateQuote">New Quote!</button>
+        <button id="genButton" onclick="generateQuote()">New Quote!</button>
+    </div>
+    <div id="footer">
+        <h3>@Copyright 2022 - Johan Delao</h3>
+        <div id="socialIcons">
+            <a href="https://www.linkedin.com/in/johandelao/" rel="noopener noreferrer" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin-in" style="color: white"></i></a>
+            <a href="https://github.com/JohanDelao" rel="noopener noreferrer" target="_blank" aria-label="github"><i class="fa fa-github fa-inverse" style="color: white"></i></a>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

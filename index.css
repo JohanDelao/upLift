@@ -4,6 +4,7 @@ body {
     max-height: 100vh;
     margin: 0 auto;
     font-family: Raleway, sans-serif;
+    display: block;
 }
 
 nav {
@@ -19,11 +20,51 @@ nav h1{
 }
 
 #mainContent {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+#mainContent #quoteBox{
+    margin-bottom: 130px;
 }
 
 #quote {
+    text-align: center;
     font-size: 30px;
+}
+
+#genButton {
+    width: 100px;
+    padding: 5px;
+    border: black 2px solid;
+    position:absolute;
+    margin-top: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    background-color: #393939;
+    color: white;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+#socialIcons {
+    padding-left: 10vw;
+}
+
+#socialIcons a{
+    font-size: 1.5rem;
+    padding-right: 20px;
 }

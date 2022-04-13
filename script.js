@@ -3,8 +3,11 @@ let quotes = ["You only lose if you quit!", "Your time is limited, so don't wast
 
 let arrayLength = quotes.length;
 let randomQuoteNum = Math.floor(Math.random()*arrayLength);
-
 document.getElementById("quoteBox").innerHTML = `<h2 id="quote">"${quotes[randomQuoteNum]}"</h2>`
 
+const generateQuote = () => {
+    let randomQuoteNum2 = Math.floor(Math.random()*arrayLength);
+    document.getElementById("quoteBox").innerHTML = `<h2 id="quote">"${quotes[randomQuoteNum2]}"</h2>`
+}
 
 console.log(quotes.length)
