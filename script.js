@@ -13,7 +13,8 @@ async function getQuote(url){
 getQuote(motivationalQuoteURL);
 
 function showQuote(data){
-    document.getElementById("quoteBox").innerHTML = `<h2 id="quote">"${data.quote}"</h2>`
+    document.getElementById("quoteBox").innerHTML = `<h2 id="quote">"${data.quote}" </h2>
+    <br> <h2 id="author">-${data.person}</h2>`
 }
 
 function changeQuote(){
